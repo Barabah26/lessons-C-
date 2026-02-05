@@ -15,6 +15,8 @@ namespace OOP
             medicalAppointment.Reschedule(new DateTime(2023, 5, 9));
             medicalAppointment.OverwriteMonthAndDay(5, 1);
             medicalAppointment.MoveByMonthsAndDays(1, 2);
+            var medicalAppointment2 = new MedicalAppointment(
+                "Only name");
 
 
         }
@@ -40,16 +42,18 @@ namespace OOP
             _date = date;
         }
 
-        public MedicalAppointment(string patientName) :
-            this(patientName, 7)
-        { 
-        }
+        //public MedicalAppointment(string patientName) :
+        //    this(patientName, 7)
+        //{ 
+        //}
 
-        public MedicalAppointment(string patientName, int daysFromNow)
+        public MedicalAppointment(string patientName = "Unknown", int daysFromNow = 7)
         {
             _patientName = patientName;
             _date = DateTime.Now.AddDays(daysFromNow);
         }
+
+  
 
         public void Reschedule(DateTime date)
         {
