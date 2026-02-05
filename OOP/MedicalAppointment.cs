@@ -12,10 +12,20 @@ namespace OOP
         {
             var medicalAppointment = new MedicalAppointment(
                 "John Smith", new DateTime(2023, 4, 3));
+            medicalAppointment.Reschedule(new DateTime(2023, 5, 9));
             medicalAppointment.OverwriteMonthAndDay(5, 1);
             medicalAppointment.MoveByMonthsAndDays(1, 2);
 
 
+        }
+    }
+
+    public class MedicalAppointmentPrinter
+    {
+        public void Print(MedicalAppointment appointment)
+        {
+            Console.WriteLine(
+                "Appointment will take place on " + appointment.GetDate());
         }
     }
 
@@ -44,6 +54,8 @@ namespace OOP
         public void Reschedule(DateTime date)
         {
             _date = date;
+            var printer = new MedicalAppointmentPrinter();
+            printer.Print(this);
         }
 
         public void OverwriteMonthAndDay(int month, int day)
@@ -56,5 +68,9 @@ namespace OOP
             _date = new DateTime(_date.Year, _date.Month + monthsToAdd, _date.Day + daysToAdd);
         }
 
+        public DateTime GetDate() => _date;
+
     }
+
+    
 }
