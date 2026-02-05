@@ -1,19 +1,10 @@
 ﻿var rectangle1 = new Rectangle(5, 10);
+var calculator = new ShapesMeasurementsCalculator();
 
 Console.WriteLine("Width is " + rectangle1.Width);
 Console.WriteLine("Height is " + rectangle1.Height);
-Console.WriteLine("Area is " + rectangle1.CalculateArea());
-Console.WriteLine("Circumference is " + rectangle1.CalculateCircumference());
-
-
-
-
-var rectangle2 = new Rectangle(3, 11);
-
-Console.WriteLine("Width is " + rectangle2.Width);
-Console.WriteLine("Height is " + rectangle2.Height);
-Console.WriteLine("Area is " + rectangle2.CalculateArea());
-Console.WriteLine("Circumference is " + rectangle2.CalculateCircumference());
+Console.WriteLine("Area is " + calculator.CalculateRectangleArea(rectangle1));
+Console.WriteLine("Circumference is " + calculator.CalculateRectangleCircumference(rectangle1));
 
 Console.ReadKey();
 
@@ -27,15 +18,17 @@ class Rectangle
         Width = width; 
         Height = height;
     }
+}
 
-    public int CalculateCircumference()
+class ShapesMeasurementsCalculator
+{
+    public int CalculateRectangleCircumference(Rectangle rectangle)
     {
-        return 2 * Width + 2 * Height;
+        return 2 * rectangle.Width + 2 * rectangle.Height;
     }
 
-    public int CalculateArea()
+    public int CalculateRectangleArea(Rectangle rectangle)
     {
-        return Width * Height;
+        return rectangle.Width * rectangle.Height;
     }
-
 }
