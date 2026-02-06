@@ -1,12 +1,25 @@
 ﻿var rectangle1 = new Rectangle(5, 10);
-var calculator = new ShapesMeasurementsCalculator();
+//var calculator = new ShapesMeasurementsCalculator();
 
-Console.WriteLine("Width is " + rectangle1.Width);
-Console.WriteLine("Height is " + rectangle1.GetHeigth();
-Console.WriteLine("Area is " + calculator.CalculateRectangleArea(rectangle1));
-Console.WriteLine("Circumference is " + calculator.CalculateRectangleCircumference(rectangle1));
+//Console.WriteLine("Width is " + rectangle1.Width);
+//Console.WriteLine("Height is " + rectangle1.GetHeigth());
+//Console.WriteLine("Area is " + calculator.CalculateRectangleArea(rectangle1));
+//Console.WriteLine("Circumference is " + calculator.CalculateRectangleCircumference(rectangle1));
+
+Console.WriteLine($"1 + 2 is {Calculator.Add(1, 2)}");
+Console.WriteLine($"1 - 2 is {Calculator.Subtract(1, 2)}");
+Console.WriteLine($"1 * 2 is {Calculator.Multiply(1, 2)}");
+
 
 Console.ReadKey();
+
+static class Calculator
+{
+    public static int Add(int a, int b) => a + b;
+    public static int Subtract(int a, int b) => a - b;
+    public static int Multiply(int a, int b) => a * b;
+
+}
 
 class Rectangle
 {
@@ -15,8 +28,8 @@ class Rectangle
 
     public Rectangle(int width, int heigth)
     {
-        width = GetLengthOrDefault(width, nameof(Width);
-        heigth = GetLengthOrDefault(heigth, nameof(Height);
+        width = GetLengthOrDefault(width, nameof(_width));
+        heigth = GetLengthOrDefault(heigth, nameof(_height));
 
     }
 
@@ -42,13 +55,13 @@ class Rectangle
         return length;
     }
 
-    public string Description => $"A rectangle with width {Width} " + $"and height {_height}";
+    public string Description => $"A rectangle with width {_width} " + $"and height {_height}";
 
 }
 
-class ShapesMeasurementsCalculator
-{
-    public int CalculateRectangleCircumference(Rectangle rectangle) => 2 * rectangle.Width + 2 * rectangle.Height;
-    public int CalculateRectangleArea(Rectangle rectangle) => rectangle.Width * rectangle.Height;
+//class ShapesMeasurementsCalculator
+//{
+//    public int CalculateRectangleCircumference(Rectangle rectangle) => 2 * rectangle._width + 2 * rectangle._height;
+//    public int CalculateRectangleArea(Rectangle rectangle) => rectangle._width * rectangle._height;
 
-}
+//}
