@@ -2,7 +2,7 @@
 var calculator = new ShapesMeasurementsCalculator();
 
 Console.WriteLine("Width is " + rectangle1.Width);
-Console.WriteLine("Height is " + rectangle1.Height);
+Console.WriteLine("Height is " + rectangle1.GetHeigth();
 Console.WriteLine("Area is " + calculator.CalculateRectangleArea(rectangle1));
 Console.WriteLine("Circumference is " + calculator.CalculateRectangleCircumference(rectangle1));
 
@@ -10,9 +10,8 @@ Console.ReadKey();
 
 class Rectangle
 {
-    const int NumberOfSides = 4;
     public readonly int Width;
-    public readonly int Height;
+    private readonly int _height;
 
     public Rectangle(int width, int heigth)
     {
@@ -20,6 +19,8 @@ class Rectangle
         heigth = GetLengthOrDefault(heigth, nameof(Height);
 
     }
+
+    public int GetHeigth() => _height;
 
     private int GetLengthOrDefault(int length, string name)
     {
