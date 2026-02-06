@@ -1,4 +1,9 @@
 ﻿var rectangle1 = new Rectangle(5, 10);
+var rectangle2 = new Rectangle(50, 100);
+
+Console.WriteLine(
+    "Count of Rectangle objects is " + Rectangle.CountOfInstances);
+
 //var calculator = new ShapesMeasurementsCalculator();
 
 //Console.WriteLine("Width is " + rectangle1.Width);
@@ -23,6 +28,8 @@ static class Calculator
 
 class Rectangle
 {
+    public static int CountOfInstances {  get; private set; }
+
     private int _width;
     private int _height;
 
@@ -30,7 +37,7 @@ class Rectangle
     {
         width = GetLengthOrDefault(width, nameof(_width));
         heigth = GetLengthOrDefault(heigth, nameof(_height));
-
+        ++CountOfInstances;
     }
 
     public int GetHeigth() => _height;
