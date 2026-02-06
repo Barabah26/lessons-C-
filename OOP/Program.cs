@@ -10,8 +10,8 @@ Console.ReadKey();
 
 class Rectangle
 {
-    public readonly int Width;
-    private readonly int _height;
+    private int _width;
+    private int _height;
 
     public Rectangle(int width, int heigth)
     {
@@ -21,6 +21,14 @@ class Rectangle
     }
 
     public int GetHeigth() => _height;
+
+    public void SetHeight(int value)
+    {
+        if (value > 0)
+        {
+            _height = value;
+        }
+    }
 
     private int GetLengthOrDefault(int length, string name)
     {
