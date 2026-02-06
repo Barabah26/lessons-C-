@@ -29,6 +29,7 @@ static class Calculator
 class Rectangle
 {
     public static int CountOfInstances {  get; private set; }
+    private static DateTime _firstUsed = DateTime.Now;
 
     private int _width;
     private int _height;
