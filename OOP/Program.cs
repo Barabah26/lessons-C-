@@ -42,6 +42,8 @@ class Rectangle
         return length;
     }
 
+    public string Description => $"A rectangle with width {Width} " + $"and height {_height}";
+
 }
 
 class ShapesMeasurementsCalculator
