@@ -10,14 +10,29 @@ Console.ReadKey();
 
 class Rectangle
 {
-    public int Width;
-    public int Height;
+    const int NumberOfSides = 4;
+    public readonly int Width;
+    public readonly int Height;
 
-    public Rectangle(int width, int height)
+    public Rectangle(int width, int heigth)
     {
-        Width = width; 
-        Height = height;
+        width = GetLengthOrDefault(width, nameof(Width);
+        heigth = GetLengthOrDefault(heigth, nameof(Height);
+
     }
+
+    private int GetLengthOrDefault(int length, string name)
+    {
+        const int DefaultValueOfNonPositive = 1;
+        if (length <= 0)
+        {
+            Console.WriteLine($"{name} must be a positive number.");
+            return DefaultValueOfNonPositive;
+        }
+        else
+        return length;
+    }
+
 }
 
 class ShapesMeasurementsCalculator
