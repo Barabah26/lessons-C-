@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60B367FA-02B6-461A-BDBF-B20804FFECE5}|OOP\\OOP.csproj|c:\\users\\pavlo\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\oop\\oop\\stringstransformator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60B367FA-02B6-461A-BDBF-B20804FFECE5}|OOP\\OOP.csproj|solutionrelative:oop\\stringstransformator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C372F84-F064-4836-84D1-936E4270D2C5}|DiceRollGame\\DiceRollGame.csproj|c:\\users\\pavlo\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\oop\\dicerollgame\\game\\guessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C372F84-F064-4836-84D1-936E4270D2C5}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\game\\guessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60B367FA-02B6-461A-BDBF-B20804FFECE5}|OOP\\OOP.csproj|c:\\users\\pavlo\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\oop\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60B367FA-02B6-461A-BDBF-B20804FFECE5}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C372F84-F064-4836-84D1-936E4270D2C5}|DiceRollGame\\DiceRollGame.csproj|c:\\users\\pavlo\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\oop\\dicerollgame\\usercommunication\\consolereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C372F84-F064-4836-84D1-936E4270D2C5}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\usercommunication\\consolereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StringsTransformator.cs",
-              "DocumentMoniker": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\OOP\\StringsTransformator.cs",
-              "RelativeDocumentMoniker": "OOP\\StringsTransformator.cs",
-              "ToolTip": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\OOP\\StringsTransformator.cs",
-              "RelativeToolTip": "OOP\\StringsTransformator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Title": "GuessingGame.cs",
+              "DocumentMoniker": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\DiceRollGame\\Game\\GuessingGame.cs",
+              "RelativeDocumentMoniker": "DiceRollGame\\Game\\GuessingGame.cs",
+              "ToolTip": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\DiceRollGame\\Game\\GuessingGame.cs",
+              "RelativeToolTip": "DiceRollGame\\Game\\GuessingGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T17:07:48.232Z",
+              "WhenOpened": "2026-02-07T19:35:36.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\OOP\\Program.cs",
-              "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\OOP\\Program.cs",
-              "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
+              "Title": "ConsoleReader.cs",
+              "DocumentMoniker": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\DiceRollGame\\UserCommunication\\ConsoleReader.cs",
+              "RelativeDocumentMoniker": "DiceRollGame\\UserCommunication\\ConsoleReader.cs",
+              "ToolTip": "C:\\Users\\pavlo\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\.net\\OOP\\DiceRollGame\\UserCommunication\\ConsoleReader.cs",
+              "RelativeToolTip": "DiceRollGame\\UserCommunication\\ConsoleReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:12:45.79Z",
+              "WhenOpened": "2026-02-07T19:35:30.836Z",
               "EditorCaption": ""
             }
           ]

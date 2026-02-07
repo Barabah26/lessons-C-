@@ -15,7 +15,7 @@ namespace OOP
     }
     public static class StringsTransformator
     {
-        public static string TransformSeparators(
+        public static string TransformSeparators(2606
             string input,
             string originalSeparator,
             string targetSeparator)
