@@ -25,10 +25,7 @@ namespace OOP.Animals
 
 	class Animal
 	{
-		public virtual int NumberOfLegs()
-		{
-			return 4;
-		}
+		public virtual int NumberOfLegs => 4;
 
 	}
 
@@ -44,17 +41,11 @@ namespace OOP.Animals
 
 	class Duck : Animal
 	{
-		public override int NumberOfLegs()
-		{
-			return 2;
-		}
+		public override int NumberOfLegs => 2;
 	}
 
 	class Spider : Animal
 	{
-		public override int NumberOfLegs()
-		{
-			return 8;
-		}
+		public override int NumberOfLegs => 8;
 	}
 }
