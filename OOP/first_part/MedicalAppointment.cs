@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP
+namespace OOP.first_part
 {
     public class Program
     {
-        static void Main(string[] args)
-        {
-            var medicalAppointment = new MedicalAppointment(
-                "John Smith", new DateTime(2023, 4, 3));
-            medicalAppointment.Reschedule(new DateTime(2023, 5, 9));
-            medicalAppointment.OverwriteMonthAndDay(5, 1);
-            medicalAppointment.MoveByMonthsAndDays(1, 2);
-            var medicalAppointment2 = new MedicalAppointment(
-                "Only name");
+        //static void Main(string[] args)
+        //{
+        //    var medicalAppointment = new MedicalAppointment(
+        //        "John Smith", new DateTime(2023, 4, 3));
+        //    medicalAppointment.Reschedule(new DateTime(2023, 5, 9));
+        //    medicalAppointment.OverwriteMonthAndDay(5, 1);
+        //    medicalAppointment.MoveByMonthsAndDays(1, 2);
+        //    var medicalAppointment2 = new MedicalAppointment(
+        //        "Only name");
 
 
-        }
+        //}
     }
 
     public class MedicalAppointmentPrinter

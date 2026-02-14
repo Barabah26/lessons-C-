@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP
+namespace OOP.first_part
 {
     public class Triangle
     {
@@ -19,7 +19,7 @@ namespace OOP
 
         public int CalculateArea()
         {
-            return ((Base * Height) / 2);
+            return Base * Height / 2;
         }
 
         public string AsString()

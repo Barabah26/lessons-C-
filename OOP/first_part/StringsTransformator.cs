@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP
+namespace OOP.first_part
 {
     public class MainClass
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(StringsTransformator.TransformSeparators("this,is,some,string", ",", "+"));
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine(StringsTransformator.TransformSeparators("this,is,some,string", ",", "+"));
+        //}
     }
     public static class StringsTransformator
     {
-        public static string TransformSeparators(2606
+        public static string TransformSeparators(
             string input,
             string originalSeparator,
             string targetSeparator)

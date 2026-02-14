@@ -13,3 +13,10 @@ C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\obj\Debug\net8.0\re
 C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\obj\Debug\net8.0\OOP.pdb
 C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
 C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\obj\Debug\net8.0\ref\OOP.dll
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\obj\Debug\net8.0\OOP.csproj.AssemblyReference.cache
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\bin\Debug\net8.0\DiceRollGame.deps.json
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\bin\Debug\net8.0\DiceRollGame.runtimeconfig.json
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\bin\Debug\net8.0\DiceRollGame.exe
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\bin\Debug\net8.0\DiceRollGame.dll
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\bin\Debug\net8.0\DiceRollGame.pdb
+C:\Users\pavlo\OneDrive\Робочий стіл\.net\OOP\OOP\obj\Debug\net8.0\OOP.csproj.Up2Date

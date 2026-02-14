@@ -1,22 +1,22 @@
-﻿var rectangle1 = new Rectangle(5, 10);
-var rectangle2 = new Rectangle(50, 100);
+﻿//var rectangle1 = new Rectangle(5, 10);
+//var rectangle2 = new Rectangle(50, 100);
 
-Console.WriteLine(
-    "Count of Rectangle objects is " + Rectangle.CountOfInstances);
+//Console.WriteLine(
+//    "Count of Rectangle objects is " + Rectangle.CountOfInstances);
 
-//var calculator = new ShapesMeasurementsCalculator();
+////var calculator = new ShapesMeasurementsCalculator();
 
-//Console.WriteLine("Width is " + rectangle1.Width);
-//Console.WriteLine("Height is " + rectangle1.GetHeigth());
-//Console.WriteLine("Area is " + calculator.CalculateRectangleArea(rectangle1));
-//Console.WriteLine("Circumference is " + calculator.CalculateRectangleCircumference(rectangle1));
+////Console.WriteLine("Width is " + rectangle1.Width);
+////Console.WriteLine("Height is " + rectangle1.GetHeigth());
+////Console.WriteLine("Area is " + calculator.CalculateRectangleArea(rectangle1));
+////Console.WriteLine("Circumference is " + calculator.CalculateRectangleCircumference(rectangle1));
 
-Console.WriteLine($"1 + 2 is {Calculator.Add(1, 2)}");
-Console.WriteLine($"1 - 2 is {Calculator.Subtract(1, 2)}");
-Console.WriteLine($"1 * 2 is {Calculator.Multiply(1, 2)}");
+//Console.WriteLine($"1 + 2 is {Calculator.Add(1, 2)}");
+//Console.WriteLine($"1 - 2 is {Calculator.Subtract(1, 2)}");
+//Console.WriteLine($"1 * 2 is {Calculator.Multiply(1, 2)}");
 
 
-Console.ReadKey();
+//Console.ReadKey();
 
 static class Calculator
 {
