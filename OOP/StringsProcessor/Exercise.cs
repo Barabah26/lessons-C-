@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace OOP.StringsProcessor
 {
@@ -6,13 +8,16 @@ namespace OOP.StringsProcessor
     {
         public List<string> ProcessAll(List<string> words)
         {
-            var stringsProcessors = new List<StringsProcessor>
-                {
-                    new StringsTrimmingProcessor(),
-                    new StringsUppercaseProcessor()
-                };
+            if (words == null)
+                throw new ArgumentNullException(nameof(words));
 
-            List<string> result = words;
+            var stringsProcessors = new List<StringsProcessor>
+            {
+                new StringsTrimmingProcessor(),
+                new StringsUppercaseProcessor()
+            };
+
+            var result = words;
             foreach (var stringsProcessor in stringsProcessors)
             {
                 result = stringsProcessor.Process(result);
@@ -25,7 +30,7 @@ namespace OOP.StringsProcessor
     {
         public virtual List<string> Process(List<string> words)
         {
-            return words;
+            return words ?? new List<string>();
         }
     }
 
@@ -33,10 +38,18 @@ namespace OOP.StringsProcessor
     {
         public override List<string> Process(List<string> words)
         {
-            List<string> result = new List<string>;
+            var result = new List<string>();
+            if (words == null) return result;
+
             foreach (var word in words)
             {
-                string upper = word.ToUpper();
+                if (word == null)
+                {
+                    result.Add(null);
+                    continue;
+                }
+
+                string upper = word.ToUpper(CultureInfo.InvariantCulture);
                 result.Add(upper);
             }
             return result;
@@ -47,9 +60,17 @@ namespace OOP.StringsProcessor
     {
         public override List<string> Process(List<string> words)
         {
-            List<string> result = new List<string>;
+            var result = new List<string>();
+            if (words == null) return result;
+
             foreach (var word in words)
             {
+                if (string.IsNullOrEmpty(word))
+                {
+                    result.Add(word); 
+                    continue;
+                }
+
                 int half = word.Length / 2;
                 string left = word.Substring(0, half);
                 result.Add(left);
