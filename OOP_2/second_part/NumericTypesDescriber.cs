@@ -12,14 +12,14 @@ namespace OOP_2.second_part
         {
             if (someObject is int)
             {
-                return "Int of value 5";
+                return "Int of value " + someObject;
             } else if (someObject is double)
             {
-                return "Double of value 5.6";
+                return "Double of value " + someObject;
             }
             else if (someObject is decimal)
             {
-                return "Decimal of value 5.7";
+                return "Decimal of value " + someObject;
             }
             else
             {
